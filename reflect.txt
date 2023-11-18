@@ -1,0 +1,19 @@
+/**********************************************************************************************************************************
+				<assessment name: Workshop - #8 (Part-2)>
+Full Name  : Rahimullah Khadim Hussain
+Student ID#: 119515229
+Email      : rkhadim-hussain@myseneca.ca
+Section    : NEE
+Date of Completion: 17-11-23
+
+Authenticity Declaration:
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+***********************************************************************************************************************************/
+
+In completing this workshop, I've gained a deeper understanding of critical concepts in C++ programming, particularly concerning smart pointers and memory management. The advantage of smart pointer syntax lies in automatic memory management, reducing the risk of memory leaks and errors. By using std::shared_ptr and std::unique_ptr, we simplified memory handling compared to raw pointers.
+
+An issue we encountered was excessive object duplication during exclusion. This arose from the += operator making unnecessary copies of temporary objects. To minimize copies, we can implement move semantics and optimize the += operator to transfer ownership efficiently.
+
+Redesigning the application involves creating move constructors and move assignment operators for the Profile class to reduce object copies. We can also use std::move() cautiously to transfer ownership and resources between objects within the DataBase class.
+
+In summary, this workshop underscores the benefits of smart pointers and the significance of move semantics in C++ programming for improved memory management and reduced unnecessary object copies.
